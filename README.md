@@ -33,7 +33,9 @@ add option `--reload` in dev mode
 `uvicorn main:app --reload`
 
 The FastAPI backend will then be accessible at http://localhost:8000/
+
 http://localhost:8000/docs for full API documentation
+![Fast API docs](/images/fastapi.png)
 
 
 ## Front End
