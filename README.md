@@ -6,7 +6,7 @@ Web app allowing to save versioned notes
 
 
 ## Installation
-###Install backend
+### Install backend
 
 `cd backend
 
@@ -17,12 +17,12 @@ pip install -r .\requirements.txt
 python .\scripts\initdb.py`
 
 
-###Run tests
+### Run tests
 
 `venv\Scripts\activate.bat`
 
 
-###Run server
+### Run server
 
 `venv\Scripts\activate.bat
 
