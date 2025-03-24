@@ -8,13 +8,12 @@ Web app allowing to save versioned notes
 ## Installation
 ### Install backend
 
-`cd backend
-
+```
+cd backend
 python -m venv venv
-
 pip install -r .\requirements.txt
-
-python .\scripts\initdb.py`
+python .\scripts\initdb.py
+```
 
 
 ### Run tests
@@ -24,9 +23,10 @@ python .\scripts\initdb.py`
 
 ### Run server
 
-`venv\Scripts\activate.bat
-
-uvicorn main:app`
+```
+venv\Scripts\activate.bat
+uvicorn main:app
+```
 
 add option `--reload` in dev mode
 
@@ -40,10 +40,10 @@ http://localhost:8000/docs for full API documentation
 
 fron end relies on bun package manager, with vite bundler
 
-`cd ..\frontend
-
-bun install`
-
+```
+cd ..\frontend
+bun install
+```
 `bun dev` to launch dev server
 
 `bun test` for tests
