@@ -3,9 +3,9 @@ import pytest
 from sqlalchemy.orm import Session
 from datetime import datetime
 
-from lib.notebook import NoteBook
-from lib.database import Note
-from lib.models import NoteCreate
+from notebook import NoteBook
+from notes_db import Note
+from models import NoteCreate
 
 
 def test_create_note(db: Session):

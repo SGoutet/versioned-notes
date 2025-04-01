@@ -55,7 +55,7 @@ async def update_note(note_id: UUID, note_update: NoteUpdate, db: Session = Depe
 @app.delete("/notes/{note_id}")
 async def delete_note(note_id: UUID, db: Session = Depends(get_db_session)):
     nb = NoteBook(db)
-    nb.delete_note(note_id)
+    await nb.delete_note(note_id)
     return {"message": "Note deleted"}
 
 
